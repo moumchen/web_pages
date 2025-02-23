@@ -1,0 +1,451 @@
+
+.box{
+	width:100%;
+	height:40px;
+}
+.header{
+	background-color: rgb(250,250,250);
+	color:white;
+	position:fixed;
+	top:0px;
+	left:0px;
+	right:0px;
+	z-index:3;
+	height:60px;
+}
+
+.header__wrap{
+	width:1200px;
+	height:60px;
+	margin:0 auto;
+}
+
+
+.header__logo{
+	background:url("./../exam_system_images/logo.png") left top no-repeat;
+	float:left;
+  	font-size:18px;
+  	margin-top:10px;
+  	line-height: 40px
+  	
+}
+.header__logo a{
+	padding-left:50px;
+	font-family: 微软雅黑;
+}
+
+.header__nav{
+	float:right;
+	font-size:15px;
+	margin-top:10px;
+	line-height: 40px
+
+}
+
+.header__nav-item{
+	float:left;
+	display:inline-block;
+	width:60px;
+	text-align: center;
+	margin-right:60px;
+	color:black;
+}
+
+.header__nav-item:hover{
+	color:rgb(18,82,218);
+
+}
+.header__nav-item_status_active{
+	color:rgb(18,82,218);
+	border-bottom:2px solid;
+
+}
+
+.header__nav-item_custom_button{
+	color:white;
+	width:100px;
+	background-color: black;
+	border-radius:6px;
+}
+
+
+
+
+.screen-1{
+	height:800px;
+	width:100%;
+	background:url("../exam_system_images/screen1bgi.jpg") no-repeat;
+}
+
+.screen-1__wrap{
+	width:1200px;
+	height:800px;
+	margin:0 auto;
+	position:relative;
+
+}
+.screen-1__title{
+	position:absolute;
+	font-size:40px;
+	font-weight: normal;
+	bottom:50px;
+	left:50px;
+}
+
+.screen-1__title b{
+	font-weight: normal;
+	color:orange;
+}
+
+.screen-1__subtitle{
+	position:absolute;
+	font-size:30px;
+	font-weight: normal;
+	bottom:55px;
+	left:450px;
+	z-index: 2;
+}
+
+.screen-1__paper{
+	position: relative;
+	top:50px;
+	left:200px;
+	width:500px;
+	height:500px;
+	z-index: 1;
+	background: url("../exam_system_images/paper.png") no-repeat;
+}
+
+
+.screen-1__pointer{
+	position: absolute;
+	background: url("../exam_system_images/icon-point-left.png") no-repeat;
+	width:111px;
+	height:21px;
+	top:150px;
+	left:600px;
+	z-index: 2;
+}
+
+.screen-1__pointer2{
+	position: absolute;
+	width:111px;
+	height:21px;
+	background: url("../exam_system_images/icon-point-left.png") no-repeat;
+	top:200px;
+	left:600px;
+	z-index: 2;
+}
+
+.screen-1__pointer3{
+	position: absolute;
+	width:111px;
+	height:21px;
+	background: url("../exam_system_images/icon-point-left.png") no-repeat;
+	top:250px;
+	left:600px;
+	z-index: 2;
+}
+
+.screen-1__pointer__words{
+	position: absolute;
+	 
+	top:135px;
+	left:720px;
+	font-size:30px;
+	color:white;
+	font-weight: bold;
+	z-index: 2;
+}
+
+
+.screen-1__pointer__words2{
+	position: absolute;
+	 
+	top:190px;
+	left:720px;
+	font-size:30px;
+	color:white;
+	font-weight: bold;
+	z-index: 2;
+}
+.screen-1__pointer__words3{
+	position: absolute;
+	top:240px;
+	left:720px;
+	font-size:30px;
+	color:white;
+	font-weight: bold;
+	z-index: 2;
+}
+
+
+.screen-2{
+	width:100%;
+	height:800px;
+	background-size: cover;
+	background:  url('../exam_system_images/screen2bgi.jpg') repeat;
+	color:white;
+}
+
+.screen-2__wrap{
+	width:1200px;
+	height:800px;
+	margin:0 auto;
+	position: relative;
+}
+
+.screen-2__title{
+	position: absolute;
+	top:200px;
+	font-size:60px;
+}
+
+.screen-2__subtitle{
+	position: absolute;
+	top:300px;
+	font-size:40px;
+}
+.screen-2__photo1{
+	position: absolute;
+	bottom:200px;
+	width:100px;
+	height:100px;
+	background: url("../exam_system_images/1.png") no-repeat;
+}
+
+.screen-2__photo2{
+	position: absolute;bottom:200px;
+	left:150px;
+	width:100px;
+	height:100px;
+	background: url("../exam_system_images/2.png") no-repeat;
+}
+
+.screen-2__photo3{
+	position: absolute;
+	bottom:200px;
+	left:300px;
+	width:100px;
+	height:100px;
+	background: url("../exam_system_images/3.png") no-repeat;
+}
+
+.screen-2__photo4{
+	position: absolute;left:450px;bottom:200px;
+	width:100px;
+	height:100px;
+	background: url("../exam_system_images/4.png") no-repeat;
+}
+
+.screen-2__photo5{
+	position: absolute;left:600px;bottom:200px;
+	width:100px;
+	height:100px;
+	background: url("../exam_system_images/5.png") no-repeat;
+}
+
+.screen-2__photo6{
+	position: absolute;left:750px;bottom:200px;
+	width:100px;
+	height:100px;
+	background: url("../exam_system_images/6.png") no-repeat;
+}
+
+.screen-2__photo1-words{
+	position: absolute;bottom:170px;left:10px;
+	font-size:20px;
+}
+.screen-2__photo2-words{
+	position: absolute;bottom:170px;left:160px;font-size:20px;
+}
+.screen-2__photo3-words{
+	position: absolute;bottom:170px;left:310px;font-size:20px;
+}
+.screen-2__photo4-words{
+	position: absolute;bottom:170px;left:460px;font-size:20px;
+}
+.screen-2__photo5-words{
+	position: absolute;bottom:170px;left:610px;font-size:20px;
+}
+.screen-2__photo6-words{
+	position: absolute;bottom:170px;left:760px;font-size:20px;
+}
+
+
+
+
+
+
+.screen-3{
+	width:100%;
+	height:800px;
+	position: relative;
+	background: red url('../exam_system_images/screen3bgi.jpg') no-repeat;
+}
+
+.screen-3__wrap{
+	width:1200px;
+	height:800px;
+	margin:0 auto;
+}
+
+.screen-3__title{
+	font-size: 60px;
+	position: absolute;
+	top:30px;
+	left:850px;
+	color:orange;
+	font-family: 楷体;
+}
+
+.screen-3__subtitle{
+	font-size: 30px;
+	position: absolute;
+	top:120px;
+	left:670px;
+	color:white;
+	font-family: 楷体;
+}
+
+.screen-3__photo1{
+	position: absolute;
+	width:100px;
+	height:100px;
+	background: url('../exam_system_images/哈士奇_100x100.png')  no-repeat;
+	top:170px;
+	left:700px;
+
+}
+
+.screen-3__words1{
+	position: absolute;
+	font-size:30px;
+	top:200px;
+	left:800px;
+	font-family: 楷体;
+}
+.screen-3__photo2{
+	position: absolute;
+	width:100px;
+	height:100px;
+	background: url('../exam_system_images/羊驼_100x100.png')  no-repeat;
+		top:280px;
+	left:1100px;
+}
+
+.screen-3__words2{	position: absolute;
+	font-size:30px;
+	top:310px;
+	left:1000px;	font-family: 楷体;
+}
+.screen-3__photo3{
+		width:100px;
+		position: absolute;
+	height:100px;
+	background: url('../exam_system_images/鸟_100x100.png')  no-repeat;
+		top:280px;
+	left:700px;
+}
+
+.screen-3__words3{	position: absolute;
+	font-size:30px;
+	top:310px;
+	left:800px;	font-family: 楷体;
+}
+.screen-3__photo4{
+	position: absolute;
+		width:100px;
+	height:100px;
+	background: url('../exam_system_images/鸡_100x100.png')  no-repeat;
+		top:170px;
+	left:1100px;
+}
+
+.screen-3__words4{	position: absolute;
+	font-size:30px;
+	top:200px;
+	left:1000px;	font-family: 楷体;
+}
+.screen-3__photo5{
+	position: absolute;
+	width:100px;
+	height:100px;
+	background: url('../exam_system_images/鱼_100x100.png')  no-repeat;
+		top:390px;
+	left:700px;
+}
+
+
+.screen-3__words5{	position: absolute;
+	font-size:30px;
+	top:420px;
+	left:800px;	font-family: 楷体;
+}
+
+.screen-3__more{
+	position:absolute;
+	width:200px;
+	height:50px;
+	background-color:orange;
+	top:410px;
+	left:1000px;
+	border-radius:6px;
+	color:white;
+	line-height: 50px;
+	font-size:20px;
+}
+
+
+
+
+
+.screen-4{
+	width:100%;
+	height:100px;
+	background-color: black;
+	position:relative;
+}
+
+.screen-4__wrap{
+	position: relative;
+	width:1200px;
+	height:100px;
+	margin:0 auto;
+}
+
+.screen-4__chatus{
+	position:absolute;
+	top:20px;
+	left: 50px;
+	line-height: 50px;
+	font-size:20px;
+	font-family: 楷体;
+	font-weight: bold;
+	width:120px;
+	height:50px;
+	background-color: orange;
+	color:black;
+	border-radius: 10px;
+}
+
+.screen-4__chatus:hover{
+	cursor:pointer;
+	color:white;
+}
+
+.screen-4__title{
+	position: absolute;
+	top:20px;
+	left:200px;
+	font-size:20px;
+	color:white;
+}
+
+.screen-4__subtitle{
+	position:absolute;
+	top:50px;
+	left:200px;
+	font-size: 10px;
+	color:white;
+}

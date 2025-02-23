@@ -1,0 +1,143 @@
+
+.screen-3__photo4_animate_init,
+.screen-3__words4_animate_init,
+.screen-3__photo2_animate_init,
+.screen-3__words2_animate_init,
+.screen-3__more_animate_init,
+.screen-1__pointer_animate_init,
+.screen-1__pointer2_animate_init,
+.screen-1__pointer3_animate_init,
+.screen-1__pointer__words_animate_init,
+.screen-1__pointer__words2_animate_init,
+.screen-1__pointer__words3_animate_init{
+	opacity: 0;
+	transform: translate(100%,0);
+
+}
+
+
+.screen-1__subtitle_animate_init,
+.screen-1__title_animate_init{
+	opacity: 0;
+	transform: translate(0,-100%);
+}
+
+
+.screen-3__photo1_animate_init,
+.screen-3__words1_animate_init,
+.screen-3__photo3_animate_init,
+.screen-3__words3_animate_init,
+.screen-3__photo5_animate_init,
+.screen-3__words5_animate_init,
+.screen-1__paper_animate_init{
+	opacity: 0;
+	transform: translate(-100%,0);
+
+}
+
+.screen-3__photo4_animate_done,
+.screen-3__words4_animate_done,
+.screen-3__photo2_animate_done,
+.screen-3__words2_animate_done,
+.screen-3__more_animate_done,
+.screen-1__pointer_animate_done,
+.screen-1__pointer2_animate_done,
+.screen-1__pointer3_animate_done,
+.screen-1__pointer__words_animate_done,
+.screen-1__pointer__words2_animate_done,
+.screen-1__pointer__words3_animate_done{
+	opacity: 1;
+	transform: none;
+	transition: 1s all;
+
+}
+
+.screen-1__subtitle_animate_done,
+.screen-1__title_animate_done{
+	opacity: 1;
+	transform: none;
+	transition: 1s all;
+}
+
+
+.screen-3__photo1_animate_done,
+.screen-3__words1_animate_done,
+.screen-3__photo3_animate_done,
+.screen-3__words3_animate_done,
+.screen-3__photo5_animate_done,
+.screen-3__words5_animate_done,
+.screen-1__paper_animate_done{
+	opacity: 1;
+	transform: none;
+	transition: 1s all;
+
+}
+
+.screen-3__title_animate_init,
+.screen-2__title_animate_init{
+	opacity: 0;
+	transform: translate(0,-100%);
+}
+
+.screen-3__subtitle_animate_init,
+.screen-2__subtitle_animate_init{
+	opacity: 0;
+	transform: translate(0,100%);
+}
+
+.screen-3__subtitle_animate_done,
+.screen-3__title_animate_done,
+.screen-2__subtitle_animate_done,
+.screen-2__title_animate_done{
+	opacity: 1;
+	transform: none;
+	transition: 1s all;
+}
+
+.screen-2__photo1-words_animate_init,
+.screen-2__photo2-words_animate_init,
+.screen-2__photo3-words_animate_init,
+.screen-2__photo4-words_animate_init,
+.screen-2__photo5-words_animate_init,
+.screen-2__photo6-words_animate_init,
+.screen-2__photo1_animate_init,
+.screen-2__photo2_animate_init,
+.screen-2__photo3_animate_init,
+.screen-2__photo4_animate_init,
+.screen-2__photo5_animate_init,
+.screen-2__photo6_animate_init{
+	opacity: 0;
+}
+
+.screen-2__photo1-words_animate_done,
+.screen-2__photo1_animate_done{
+	opacity:1;
+	transition: .3s all ;
+}
+.screen-2__photo2-words_animate_done,
+.screen-2__photo2_animate_done{
+	opacity:1;
+	transition: .3s all .3s ;
+}
+.screen-2__photo3-words_animate_done,
+.screen-2__photo3_animate_done{
+	opacity:1;
+	transition: .3s all .6s;
+}
+.screen-2__photo4-words_animate_done,
+.screen-2__photo4_animate_done{
+	opacity:1;
+	transition: .3s all .9s;
+}
+.screen-2__photo5-words_animate_done,
+.screen-2__photo5_animate_done{
+	opacity:1;
+	transition: .3s all 1.2s;
+}
+.screen-2__photo6-words_animate_done,
+.screen-2__photo6_animate_done{
+	opacity:1;
+	transition: .3s all 1.5s;
+}
+
+
